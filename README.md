@@ -1,19 +1,19 @@
 # operating-system-project-2023
-Commands
+Commands<br/>
 For mad_sequential<br/>
-gcc mad_sequential.c -o mad_sequential 
-./mad_sequential tiny.txt 
-./mad_sequential large.txt
+gcc mad_sequential.c -o mad_sequential <br/>
+./mad_sequential tiny.txt <br/>
+./mad_sequential large.txt<br/>
 
-For mad_process
-gcc mad_process.c -o mad_process
-./mad_process tiny.txt 
-./mad_process large.txt
+For mad_process<br/>
+gcc mad_process.c -o mad_process<br/>
+./mad_process tiny.txt <br/>
+./mad_process large.txt<br/>
 
-For mad_thread
-gcc mad_thread.c -o mad_thread or gcc mad_thread.c -lpthread
-./mad_thread tiny.txt 3
-./mad_thread large.txt 3
+For mad_thread<br/>
+gcc mad_thread.c -o mad_thread or gcc mad_thread.c -lpthread<br/>
+./mad_thread tiny.txt 3<br/>
+./mad_thread large.txt 3<br/>
 
 Aim of the project is using and creating processes and threads for communication of data. Ordinary pipes were used as IPC mechanism. 
 
