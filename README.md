@@ -1,13 +1,19 @@
 # operating-system-project-2023
 Commands
 For mad_sequential
+
 gcc mad_sequential.c -o mad_sequential 
+
 ./mad_sequential tiny.txt 
+
 ./mad_sequential large.txt
 
 For mad_process
+
 gcc mad_process.c -o mad_process
+
 ./mad_process tiny.txt 
+
 ./mad_process large.txt
 
 For mad_thread
